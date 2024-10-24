@@ -1,4 +1,4 @@
-@media screen and (max-width: 990px) {
+@media (max-width: 990px) {
     .navbar-main{
         flex-direction: column;
         align-items: center;
@@ -6,17 +6,14 @@
     .navbar-main>.navbar-child-2{
         margin-top:20px;
     }
-    /* .banner-section{
-
-    } */
     
 }
 
-@media screen and (max-width:576px) {
-    .nav-ham-menu{
+@media (max-width:576px) {
+    .nav-hamburger-menu{
         display: block;
     }
-    .navbar-main>.navbar-child-2{
+    .navbar-main>.navbar-item-2{
         display: none;
     }
     .banner-section{
@@ -31,7 +28,9 @@
     .extra-running{
         flex-direction: column;
     }
-    @media (max-width: 768px) {
+
+
+@media (max-width: 768px) {
         .bmi-form-main {
             flex-direction: column;
         }
