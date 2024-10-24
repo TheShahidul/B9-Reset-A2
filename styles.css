@@ -303,3 +303,145 @@ a{
     max-width: 350px;
     border-radius: 10px;
 }
+
+
+/* bmi calc */
+
+.bmi-title {
+    text-align: center;
+    padding: 20px;
+    max-width: 671px;
+    margin: 10px auto 0;
+    color: white;
+}
+
+.bmi-title h1 {
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.bmi-title p {
+    margin-top: 10px;
+    color: rgb(162, 162, 162);
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+
+/* form */
+.bmi-form-main {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bmi-form {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 40px;
+    background: none;
+}
+
+/* bmi table */
+.table-container {
+    flex: 1;
+    margin-right: 40px;
+    background: none;
+}
+
+.table-container h4 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #444;
+    color: #f04a33;
+}
+
+/* bmi calc form */
+.bmi-calculate {
+    flex: 1;
+}
+
+.bmi-calculate-title h4 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.bmi-h4{
+    color: white;
+}
+
+.bmi-calculate-title p {
+    margin-bottom: 20px;
+    color: #999;
+    font-family: sans-serif;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-row {
+    display: flex;
+    gap: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e2e2e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+input::placeholder, select {
+    color: #ffffff;
+}
+
+.calculate-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5a43;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.calculate-btn:hover {
+    background-color: #d6402b;
+}
+
+
