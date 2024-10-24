@@ -105,27 +105,27 @@ a{
 
 }
 .banner-btn-1{
-    background-color:rgba(229, 81, 13, 0.966);
-    padding: 10px 30px;
-    border-radius: 50px;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5a43;
     color: white;
-
-    font-size: 15px;
-    font-style: normal;
+    text-decoration: none;
+    font-size: 16px;
     font-weight: bold;
-    
-    
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
 }
 .banner-btn-2{
-    background-color: rgba(0, 0, 0, 0.966);
-    padding: 10px 30px;
-    border: 1px solid;
-    border-radius: 50px;
-    color: white;
-
-    font-size: 15px;
-    font-style: normal;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: solid 1px white;
+    text-decoration: none;
+    font-size: 16px;
     font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
 }
 
 .banner-section{
@@ -241,3 +241,65 @@ a{
 }
 
 
+/* Run extra card */
+
+.promo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1060px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+
+}
+
+.promo-text {
+    color: white;
+    max-width: 500px;
+    padding-left: 30px;
+}
+
+.promo-text h1 {
+    /* font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px; */
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.promo-text p {
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(162, 162, 162);
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+
+.promo-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5a43;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.promo-button:hover {
+    background-color: #ff2a10;
+}
+
+.promo-image img {
+    max-width: 350px;
+    border-radius: 10px;
+}
