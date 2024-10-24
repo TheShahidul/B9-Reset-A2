@@ -73,15 +73,16 @@ a{
 }
 .banner-title h1{
     color: white; 
-    font-size: larger;
+    font-size: 65px;
     font-weight: bolder;
     margin-left: 0;
+    
 }
 .banner-title p{
     color: rgba(204, 204, 204, 0.871);
     /* padding: 10px; */
-    font-size: larger;
-    font-weight:1000;
+    font-size: 20px;
+    font-weight: 500;
     margin-left: 0 ;
 }
 .banner-button-main{
