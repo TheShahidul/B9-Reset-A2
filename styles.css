@@ -156,9 +156,11 @@ a{
     font-size: 10px;
     border-radius: 10px;
     position: absolute;
-    top:20%;
-    left: 55%;
+    top:50%;
+    left: 60%;
     color: rgb(220, 210, 210);
+    backdrop-filter: blur(5px);
+    border: 1px solid gray;
     
 }
 .element-item-2{
@@ -169,11 +171,14 @@ a{
     background-color: rgba(0, 0, 0, 0.214);
     border-radius: 10px;
     padding: 10px;
+    backdrop-filter: blur(5px);
+    border: 1px solid gray;
 }
 .element-item-2 img{
     position: absolute;
     top: 35px;
     left: -40px;
+    
 }
 
 
@@ -516,3 +521,89 @@ input::placeholder, select {
 
 }
 
+
+/* Footer section */
+
+footer{
+    margin-top: 60px;
+    /* padding: 40px ; */
+}
+.footer-container{
+
+    background: #2e2e2eb4;
+    display: grid;
+    /* max-width: 100%; */
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.footer-logo h1{
+    color: rgba(229, 81, 13, 0.966);
+    font-weight: 800px;
+    line-height: 120%;
+    letter-spacing:0% ;
+    text-align: left;
+    font-style: italic;
+    font-size: 70px;
+    padding-left: 230px;
+    margin-top: 60px;
+}
+.footer-logo p{
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(162, 162, 162);
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 80%;
+    padding-left: 230px;
+}
+
+.footer-links{
+margin-top: 60px;
+margin-bottom: 60px;
+}
+
+.footer-links h3{
+    font-size: 30px;
+    margin-bottom:10px ;
+    color: white;
+    /* height: 1000px; */
+    font-family: sans-serif;
+
+}
+.footer-links ul{
+    list-style-type: none;
+    color: grey;
+    font-size: 20px;
+    text-align: left;
+}
+.footer-links ul li{
+    list-style-type: none;
+    margin-bottom: 8px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer-links ul li a{
+    padding-top: 5px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    color: grey;
+    text-decoration: none;
+    gap: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.footer-bottom{
+    max-width: 1060px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 3px solid rgba(128, 128, 128, 0.563)
+}
+.footer-bottom p{
+    margin: 0;
+    font-size: 14px;
+    color: grey;
+    font-size: 15px;
+}
