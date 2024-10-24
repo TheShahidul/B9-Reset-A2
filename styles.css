@@ -444,4 +444,21 @@ input::placeholder, select {
     background-color: #d6402b;
 }
 
+@media (max-width: 768px) {
+    .bmi-form-main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .bmi-form {
+        flex-direction: column;
+    }
+
+    .table-container, .bmi-calculate {
+        margin-right: 0;
+    }
+}
+
+
+/* team section */
 
